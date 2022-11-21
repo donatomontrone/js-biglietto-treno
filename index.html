@@ -11,10 +11,39 @@
             <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <h1>JS TRAIN TICKET</h1>
-        <p>
-            ecco il prezzo del ticket <span id="ticket-price"></span>
-        </p>
+        <header>
+            <nav class="navbar bg-italo">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img src="https://seekvectorlogo.com/wp-content/uploads/2019/02/italo-treno-vector-logo.png" class="w-25"/>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col12">
+                            <h1 class="fs-1 color-italo fw-bold my-4">Benvenuto</h1>
+                            <h2 class="fs-3 my-3">In questa pagina potrei sapere qual'è il prezzo del tuo biglietto italo</h2>
+                            <h3 class="fs-5 my-3">Informazioni utili:</h3>
+                            <p class="fs-6 fw-light">Il prezzo per km è di <span class="color-italo fw-bold">0,21&euro;</span></p>
+                            <p class="fs-6 fw-light">Ai cliente <span class="fw-bold">Under 18</span> verrà applicato uno sconto del <span class="color-italo fw-bold">20&percnt;</span></p>
+                            <p class="fs-6 fw-light">Ai cliente <span class="fw-bold">Over 65</span> verrà applicato uno sconto del <span class="color-italo fw-bold">40&percnt;</span></p>
+                        </div>
+                        <div class="col-12">
+                            <p class="fw-bold">Questi sono km che hai inserito: <span class="color-italo fw-bold" id="user-km"></span></p>
+                            <p class="fw-bold">Questa è la tua età: <span class="color-italo fw-bold" id="user-age"></span></p>
+                            <h4 class="fw-bold fs-4">Ecco il prezzo del tuo biglietto: <span class="color-italo fw-bold fs-1" id="ticket-price"></span><span class="color-italo fw-bold fs-1" id="ticket-price-over"></span><span class="color-italo fw-bold fs-1" id="ticket-price-under"></span></h4>
+                        </div>
+                        <div class="col-12">
+                            <img src="https://www.impressionidiviaggio.com/wp-content/uploads/2017/12/italo_evo.png" class="w-100" alt="italo train">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <script type="text/javascript" src="./js/script.js"></script>
     </body>
 </html>
