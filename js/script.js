@@ -56,8 +56,12 @@ if (userKmetres > 0){
     } else {
         alert("ERRORE! I dati inseriti non sono corretti!");
         console.error("Errore");
+        document.getElementById('user-km').innerHTML = ('err');
+        document.getElementById('user-age').innerHTML = (' err');
     }
 } else {
     alert("ERRORE! I dati inseriti non sono corretti!");
     console.error("Errore");
+    document.getElementById('user-km').innerHTML = ('err');
+    document.getElementById('user-age').innerHTML = ('err');
 }
